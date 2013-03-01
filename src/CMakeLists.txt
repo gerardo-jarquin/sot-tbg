@@ -11,7 +11,7 @@ PKG_CONFIG_USE_DEPENDENCY(time-based-generator dynamic-graph)
 
 INSTALL(TARGETS time-based-generator DESTINATION lib/plugin)
 
-DYNAMIC_GRAPH_PYTHON_MODULE("sot/dynamics/time_based_generator"
+DYNAMIC_GRAPH_PYTHON_MODULE("sot/tbg/time_based_generator"
   time-based-generator
   time_based_generator-wrap
   )
